@@ -1,4 +1,4 @@
 @import "tailwindcss";
 
 /* Use Tailwind's built-in dark mode by configuring 'darkMode' in tailwind.config.js */
-
+@custom-variant dark (&:where(.dark, .dark *));
